@@ -40,7 +40,7 @@ This is a repo to use as a reference for starting small scale front-end projects
         * `document.addEventListener("DOMContentLoaded", () => {}`
 10. Create `css` folder
     * `style.css`
-12. Run `npm run webpack`
+12. Run `npm run webpack` from the terminal
 13. Open `index.html`
 
 ### Importing and Exporting
