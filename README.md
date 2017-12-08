@@ -1,6 +1,6 @@
 # Reference Repo
 
-This is a repo to use as a reference for starting small scale front-end projects and coding challenges.
+This is a repo to use as a reference for starting small scale front-end projects and coding challenges.  It outlines how to make all the html form/input types, how to use webpack, how to position elements with CSS, and how to make ajax requests.
 
 ## Creating a new project
 1. Create the folder/repo
@@ -46,3 +46,15 @@ This is a repo to use as a reference for starting small scale front-end projects
 ### Importing and Exporting
 1. Use `module.exports = MyClass` for exports
 2. Use `const MyClass = require('./myclass.js)` for imports
+3. For css positioning use 
+    * For horizontal layouts add this to the parent container
+        * `display: flex;`
+        * `justify-content: space-between;`
+    * For positioning buttons 
+        * Add this to the parent container
+            * `position: relative;`
+        * Add this to the button styling
+            * `position: absolute;`
+            * `top: 10px;`
+            * `right: 20px;`
+    
