@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Practice Project</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script type='application/javascript' src='lib/bundle.js'></script>
+        <div id='myDiv'>Hello World</div>
+        <div class='form-container'>
+            <h2>FooBar Reviews</h2>
+            <form action="/api/fooBar" method='post'>
+
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="rating">Rating</label>
+                1 <input type="radio" name="rating" value="1">
+                2 <input type="radio" name="rating" value="2">
+                3 <input type="radio" name="rating" value="3">
+                4 <input type="radio" name="rating" value="4">
+
+                <label for="expertise">Cooking Experties</label>
+                <select name="expertise" id="expertise">
+
+                    <option value="Select your experience" disabled="true", selected="true">
+                        Select Your Experience
+                    </option>
+                    <option value="Sometimes Cook">Sometimes Cook</option>
+                    <option value="Always Cook">Always Cook</option>
+                    <option value="Pro Chef">Pro Chef</option>
+                </select>
+
+                <label for="review">Review
+
+                    <textarea name="review" id="review" cols="30" rows="10"></textarea>
+                </label>
+                <input type="submit" value="Submit">
+            </form>
+
+            <button id='delete'>Delete</button>
+        </div>
+    </body>
+</html>
